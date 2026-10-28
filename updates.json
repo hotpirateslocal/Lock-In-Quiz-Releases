@@ -2,50 +2,50 @@
   "schema_version": 1,
   "apps": {
     "quiz": {
-      "version": "1.0.1",
-      "notes": "# v1.0.1 \u2014 Lock In Launcher\n\n- Adds a separate, generally themed Lock In Launcher with an app library,\n  verified updates/repair, release notes and download progress.\n- Quiz opens directly. Create a direct shortcut from the launcher or choose\n  the additional direct Quiz shortcut during Windows setup.\n- The launcher starts independently of Quiz files and saved data, so repair\n  remains available when Quiz cannot open. Existing saves and private dev\n  profile isolation are retained.\n- Download the separate Windows or Mac Launcher, then choose **Download** for\n  Quiz. Windows uses separate installers; Mac has separate Apple Silicon and\n  Intel DMGs for each app. Drag each Mac app into Applications.\n- The Launcher reads only the public current-version manifest. It needs no\n  private-repo login or token. Previous downloads are retained privately and\n  removed from the public repository; no application source is public.\n- Progression saves use authenticated encryption tied to the computer and OS\n  account. Edited/replayed currency, inventory and quiz progress are rejected;\n  startup recovery can restore the last verified save while preserving suspect\n  files. Public and development saves use separate keys.\n- Backups restore on the same installation only and retain the latest trusted\n  wallet, inventory and cases. They do not contain recovery keys. Keep the OS\n  account and secure-storage records; a data-folder copy does not transfer them.\n- Before this first external distribution, private source supports the owner's\n  one-time legacy migration. Public builds start protected and reject planted\n  plaintext progress. Offline protection deters editing; it cannot prevent a\n  determined machine owner from modifying the program itself.\n\nThe existing private source repository remains unchanged. Approved build inputs,\nfingerprints and native verification receipts are retained in the separate\nprivate archive. Mac builds are ad-hoc signed rather than Developer ID signed or\nnotarized; macOS may require Privacy & Security > Open Anyway on first launch.\n",
+      "version": "1.0.2",
+      "notes": "# Lock In Quiz 1.0.2\n\nInstall or update **Lock In Launcher first**, then use it to download Quiz.\nExisting users also need the new Launcher before opening this Quiz version.\n\n- Launcher is required to install and start the public Quiz. Direct Quiz shortcuts remain available and automatically go through Launcher's check.\n- Every start checks for an available update. If one is found, install it before continuing; cancelling or failing installation keeps Quiz closed.\n- Offline access has no expiry. A previously discovered required update must still be installed before Quiz can open.\n- Launcher can close after Quiz starts. Missing or older Launchers show installation/upgrade guidance.\n- Protected saves remain in their existing location. Verification uses temporary profiles and never migrates your save.\n\nWindows: download the Launcher setup, then choose Download for Quiz.\nMac: choose the Apple Silicon or Intel Launcher DMG, drag Launcher into Applications, then download Quiz through it and drag Quiz into Applications too. macOS 14.4 or later is required. These Mac builds are ad-hoc signed; first launch may require Privacy & Security > Open Anyway.\n\n",
       "assets": {
         "win32-x86_64": {
-          "name": "LockInQuiz-Setup-1.0.1.exe",
-          "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.1/LockInQuiz-Setup-1.0.1.exe",
-          "size": 351995129,
-          "sha256": "af180335813d9a1d73978707fa01d88d396102453f608a82dc1177e165dfb19b"
+          "name": "LockInQuiz-Setup-1.0.2.exe",
+          "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInQuiz-Setup-1.0.2.exe",
+          "size": 351999871,
+          "sha256": "d3db2d571bd273094a668d640dbddc5c5585b8a51b2370001e638c6c9aa48d9c"
         },
         "darwin-arm64": {
-          "name": "LockInQuiz-1.0.1-macos-arm64.dmg",
-          "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.1/LockInQuiz-1.0.1-macos-arm64.dmg",
-          "size": 332212714,
-          "sha256": "372991c232432292176f0c00a7ea0d3ce751c7c731ab31692db7fffa7e8fe94f"
+          "name": "LockInQuiz-1.0.2-macos-arm64.dmg",
+          "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInQuiz-1.0.2-macos-arm64.dmg",
+          "size": 331469415,
+          "sha256": "384eb29f044d63f802692bd6c4f223746094ae961259c14fa291733afb4bab05"
         },
         "darwin-x86_64": {
-          "name": "LockInQuiz-1.0.1-macos-x86_64.dmg",
-          "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.1/LockInQuiz-1.0.1-macos-x86_64.dmg",
-          "size": 349447024,
-          "sha256": "442eb8d15992ef339272e8cb9e7683d8b2c7f5a834f5d0debe08bd328239bbe7"
+          "name": "LockInQuiz-1.0.2-macos-x86_64.dmg",
+          "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInQuiz-1.0.2-macos-x86_64.dmg",
+          "size": 349105295,
+          "sha256": "5f7dfc70b4cc18fff8072bed8261670d0e2693fe386fd9055a168395e8a554b8"
         }
       }
     }
   },
   "launcher": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "assets": {
       "win32-x86_64": {
-        "name": "LockInLauncher-Setup-1.0.1.exe",
-        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.1/LockInLauncher-Setup-1.0.1.exe",
-        "size": 53041475,
-        "sha256": "4376dc2a3dd252c5380e3c6e3d04ab93ffca73f9608e21fb77b50b6088587639"
+        "name": "LockInLauncher-Setup-1.0.2.exe",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInLauncher-Setup-1.0.2.exe",
+        "size": 53056916,
+        "sha256": "845b49ee9115f7a13b8807ae2902399a34b01b1a96e57569fe9cf39d0cf2c5ba"
       },
       "darwin-arm64": {
-        "name": "LockInLauncher-1.0.1-macos-arm64.dmg",
-        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.1/LockInLauncher-1.0.1-macos-arm64.dmg",
-        "size": 39767461,
-        "sha256": "18e9671c0ad6a10d5dc9ab5f1848abf6c362d41ff845db4256ae485ac30c3525"
+        "name": "LockInLauncher-1.0.2-macos-arm64.dmg",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInLauncher-1.0.2-macos-arm64.dmg",
+        "size": 39885879,
+        "sha256": "fde547e15a6d32965c60b13357e6597d593479b19aab279f324be0c3ecf997c4"
       },
       "darwin-x86_64": {
-        "name": "LockInLauncher-1.0.1-macos-x86_64.dmg",
-        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.1/LockInLauncher-1.0.1-macos-x86_64.dmg",
-        "size": 43281654,
-        "sha256": "279562fd31546e35764c93f5dd5fc61765a36947d7c461e2bf6946f6d11b393b"
+        "name": "LockInLauncher-1.0.2-macos-x86_64.dmg",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInLauncher-1.0.2-macos-x86_64.dmg",
+        "size": 42505327,
+        "sha256": "ae6ebd912a8ec479f107c091009aa7610da8192be5b3fffdda0314d114306291"
       }
     }
   }

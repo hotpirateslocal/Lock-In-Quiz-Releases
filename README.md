@@ -1,26 +1,19 @@
-# Lock In Quiz
+# Lock In Quiz — start with Launcher
 
-Install **Lock In Launcher** first. It installs Quiz, checks updates before every start, and provides repair tools.
+Install **Lock In Launcher**, then choose **Download** to install Quiz.
 
-## Download Launcher 1.0.2
+| Computer | Launcher download |
+| --- | --- |
+| Windows 64-bit | [Download Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.3/LockInLauncher-Setup-1.0.3.exe) |
+| Mac Apple Silicon | [Download Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.3/LockInLauncher-1.0.3-macos-arm64.dmg) |
+| Mac Intel | [Download Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.3/LockInLauncher-1.0.3-macos-x86_64.dmg) |
 
-- [Windows Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInLauncher-Setup-1.0.2.exe)
-- [Mac Launcher — Apple Silicon](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInLauncher-1.0.2-macos-arm64.dmg)
-- [Mac Launcher — Intel](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInLauncher-1.0.2-macos-x86_64.dmg)
+## Existing users
 
-**Already using 1.0.1? Update Launcher first**, then install the Quiz update through it.
+Install Launcher 1.0.3 once to receive Quiz updates from the new package location. Your Quiz saves remain separate from installation.
 
-On Windows, run Launcher setup, open Launcher and choose Download for Quiz.
-On Mac, drag Launcher into Applications, open it and choose Download for Quiz; then drag Quiz into Applications too. Choose the DMG for your Mac's processor. macOS 14.4 or later is required. These Mac builds are ad-hoc signed and may require System Settings → Privacy & Security → Open Anyway on first launch.
+Launcher required. Install Launcher 1.0.3 once to switch to the new package delivery location. Launcher checks for updates before each Quiz start, including desktop shortcuts. Required updates must finish before Quiz opens. Offline use remains available indefinitely unless a required update is already known. Quiz and Launcher versions are independent; future Quiz updates do not require new Launcher releases unless Launcher changes.
 
-## Starting Quiz and updates
+Quiz installation packages live in a [separate delivery repository](https://github.com/hotpirateslocal/Lock-In-Quiz-Launcher-Required-Packages). They require Launcher and are not standalone app downloads. No application source or user saves are hosted here.
 
-Launcher is required. You can keep a Quiz desktop shortcut: it automatically opens Launcher's check before Quiz starts. Install available updates before continuing. Cancelling or failing an update leaves Quiz closed. Finish setup, then choose Open Quiz to recheck and continue. Launcher can be closed once Quiz opens.
-
-**Offline access has no expiry.** Quiz opens offline unless Launcher already discovered a newer required version. In that case, connect and finish the update first.
-
-## Saved progress
-
-Updates retain your existing saves. Progression is encrypted and bound to your computer and OS account. Backups support recovery on that same installation; keep the OS account and its secure-storage records. A data-folder copy does not transfer protected progress to another computer.
-
-This repository contains the download page and current version manifest. Only the current release is public; previous verified releases are retained privately.
+Mac builds are ad-hoc signed; first launch may require Privacy & Security → Open Anyway. macOS 14.4 or later is required.

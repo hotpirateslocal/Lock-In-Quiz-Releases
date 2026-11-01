@@ -1,19 +1,21 @@
 # Lock In Quiz — start with Launcher
 
-Install **Lock In Launcher**, then choose **Download** to install Quiz.
+**Launcher 1.0.5 now checks for its own updates. Quiz remains 1.0.4.**
 
 | Computer | Launcher download |
 | --- | --- |
-| Windows 64-bit | [Download Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.4/LockInLauncher-Setup-1.0.4.exe) |
-| Mac Apple Silicon | [Download Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.4/LockInLauncher-1.0.4-macos-arm64.dmg) |
-| Mac Intel | [Download Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.4/LockInLauncher-1.0.4-macos-x86_64.dmg) |
+| Windows 64-bit | [Download Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.5/LockInLauncher-Setup-1.0.5.exe) |
+| Mac Apple Silicon | [Download Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.5/LockInLauncher-1.0.5-macos-arm64.dmg) |
+| Mac Intel | [Download Launcher](https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.5/LockInLauncher-1.0.5-macos-x86_64.dmg) |
 
-## Existing users
+## Launcher updates
 
-Install Launcher 1.0.4 for the new location controls. Click the gear beside Download/Open to choose this app’s download folder, move its installation, or move Quiz data to another drive. Sidebar Settings changes defaults. Your Quiz saves remain separate from installation.
+Install this build once if using Launcher 1.0.4 or older. It checks for Launcher updates at startup and provides **Launcher updates / Update Launcher** in the sidebar. Future Launcher installers are downloaded and hash-verified before setup opens. On Mac, replace Launcher using the verified DMG. Quiz and saved data are separate.
 
-Launcher 1.0.4 adds Settings and a gear beside Download/Open. Choose default or per-app download/install folders, move the app, or move Quiz data to another drive on the same computer/account. Protected data is copied and verified before switching; interrupted moves can be retried. Close Quiz before moving it. Repair, open-folder, shortcut and uninstall controls are in app settings. Quiz 1.0.4 supplies the protected data-move helper. Install the new Launcher to use these controls. Required updates are checked before every Quiz start. Offline use has no expiry unless a required update is already known. Quiz and Launcher versions remain independent.
+Use Download/Open for Quiz. Sidebar Settings changes defaults; the gear next to Download/Open provides app-specific locations, Move app and Move Quiz data on this computer/account.
 
-Quiz installation packages live in a [separate delivery repository](https://github.com/hotpirateslocal/Lock-In-Quiz-Launcher-Required-Packages). They require Launcher and are not standalone app downloads. No application source or user saves are hosted here.
+Quiz updates are checked before every start. Offline use has no expiry unless a required Quiz update is already known. Launcher update-check failures do not prevent offline Quiz access.
 
-Mac builds are ad-hoc signed; first launch may require Privacy & Security → Open Anyway. macOS 14.4 or later is required.
+Quiz packages live in the [Launcher-required delivery repository](https://github.com/hotpirateslocal/Lock-In-Quiz-Launcher-Required-Packages). They require Launcher and are not standalone app downloads. No application source or user saves are public here.
+
+Mac builds are ad-hoc signed; first launch may require Privacy & Security > Open Anyway. macOS 14.4 or later is required.

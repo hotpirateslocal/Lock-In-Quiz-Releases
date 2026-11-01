@@ -27,25 +27,26 @@
     }
   },
   "launcher": {
-    "version": "1.0.4",
+    "version": "1.0.5",
+    "notes": "Launcher now checks for its own updates. Use Launcher updates / Update Launcher. Quiz remains 1.0.4.",
     "assets": {
       "win32-x86_64": {
-        "name": "LockInLauncher-Setup-1.0.4.exe",
-        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.4/LockInLauncher-Setup-1.0.4.exe",
-        "size": 53089375,
-        "sha256": "4e986909419dc98c6082613423be66ace6028ca437f05503dfc732ca8dae5c07"
+        "name": "LockInLauncher-Setup-1.0.5.exe",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.5/LockInLauncher-Setup-1.0.5.exe",
+        "size": 53092758,
+        "sha256": "7b071e7285c8a0b71b001d4344f0f122ab4c8270b235d6c798db1ad6880b6e04"
       },
       "darwin-arm64": {
-        "name": "LockInLauncher-1.0.4-macos-arm64.dmg",
-        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.4/LockInLauncher-1.0.4-macos-arm64.dmg",
-        "size": 40493945,
-        "sha256": "51215bace7fdfe92131b45b333dc68264d78e62cf18119405d25a740948b1797"
+        "name": "LockInLauncher-1.0.5-macos-arm64.dmg",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.5/LockInLauncher-1.0.5-macos-arm64.dmg",
+        "size": 30842608,
+        "sha256": "efd0d266fd941ab80b9e9c446dd8d64bab12257d4096e4e5a39e83c444478d37"
       },
       "darwin-x86_64": {
-        "name": "LockInLauncher-1.0.4-macos-x86_64.dmg",
-        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.4/LockInLauncher-1.0.4-macos-x86_64.dmg",
-        "size": 42731407,
-        "sha256": "da0f8d35a9348233c0f1537f78a3ba007706da73ca43dd1f915989af3d0f8373"
+        "name": "LockInLauncher-1.0.5-macos-x86_64.dmg",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.5/LockInLauncher-1.0.5-macos-x86_64.dmg",
+        "size": 32484784,
+        "sha256": "4313a649943ac26cebeff1dff4c141d6e2ec1b7fb4506f9ad5b2b3f35e91e8a0"
       }
     }
   }

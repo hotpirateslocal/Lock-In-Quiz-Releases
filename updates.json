@@ -3,7 +3,7 @@
   "apps": {
     "quiz": {
       "version": "1.0.2",
-      "notes": "Install the latest Lock In Launcher from https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/latest once to receive new Quiz updates. Launcher required. Install Launcher 1.0.3 once to switch to the new package delivery location. Launcher checks for updates before each Quiz start, including desktop shortcuts. Required updates must finish before Quiz opens. Offline use remains available indefinitely unless a required update is already known. Quiz and Launcher versions are independent; future Quiz updates do not require new Launcher releases unless Launcher changes.",
+      "notes": "Install the latest Lock In Launcher from https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/latest once to receive new Quiz updates. Launcher 1.0.4 adds Settings and a gear beside Download/Open. Choose default or per-app download/install folders, move the app, or move Quiz data to another drive on the same computer/account. Protected data is copied and verified before switching; interrupted moves can be retried. Close Quiz before moving it. Repair, open-folder, shortcut and uninstall controls are in app settings. Quiz 1.0.4 supplies the protected data-move helper. Install the new Launcher to use these controls. Required updates are checked before every Quiz start. Offline use has no expiry unless a required update is already known. Quiz and Launcher versions remain independent.",
       "assets": {
         "win32-x86_64": {
           "name": "LockInQuiz-Setup-1.0.2.exe",
@@ -27,25 +27,25 @@
     }
   },
   "launcher": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "assets": {
       "win32-x86_64": {
-        "name": "LockInLauncher-Setup-1.0.3.exe",
-        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.3/LockInLauncher-Setup-1.0.3.exe",
-        "size": 53059188,
-        "sha256": "0f751d45a7d5597368a32a15ef88789cfd3f5cf76a13e6d09e8ef41c85434b3c"
+        "name": "LockInLauncher-Setup-1.0.4.exe",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.4/LockInLauncher-Setup-1.0.4.exe",
+        "size": 53089375,
+        "sha256": "4e986909419dc98c6082613423be66ace6028ca437f05503dfc732ca8dae5c07"
       },
       "darwin-arm64": {
-        "name": "LockInLauncher-1.0.3-macos-arm64.dmg",
-        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.3/LockInLauncher-1.0.3-macos-arm64.dmg",
-        "size": 40664355,
-        "sha256": "c962f204ed2fd6763d322dad577ce8228785e9b5181d49de7fbbbada941509cb"
+        "name": "LockInLauncher-1.0.4-macos-arm64.dmg",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.4/LockInLauncher-1.0.4-macos-arm64.dmg",
+        "size": 40493945,
+        "sha256": "51215bace7fdfe92131b45b333dc68264d78e62cf18119405d25a740948b1797"
       },
       "darwin-x86_64": {
-        "name": "LockInLauncher-1.0.3-macos-x86_64.dmg",
-        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.3/LockInLauncher-1.0.3-macos-x86_64.dmg",
-        "size": 42595801,
-        "sha256": "43bdf31fce8f468507351184c35d05a196061a0995a273b953d4aed44033d022"
+        "name": "LockInLauncher-1.0.4-macos-x86_64.dmg",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.4/LockInLauncher-1.0.4-macos-x86_64.dmg",
+        "size": 42731407,
+        "sha256": "da0f8d35a9348233c0f1537f78a3ba007706da73ca43dd1f915989af3d0f8373"
       }
     }
   }

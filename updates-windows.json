@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "apps": {
+    "quiz": {
+      "version": "1.0.2",
+      "notes": "Install the latest Lock In Launcher from https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/latest once to receive new Quiz updates. Launcher 1.0.4 adds Settings and a gear beside Download/Open. Choose default or per-app download/install folders, move the app, or move Quiz data to another drive on the same computer/account. Protected data is copied and verified before switching; interrupted moves can be retried. Close Quiz before moving it. Repair, open-folder, shortcut and uninstall controls are in app settings. Quiz 1.0.4 supplies the protected data-move helper. Install the new Launcher to use these controls. Required updates are checked before every Quiz start. Offline use has no expiry unless a required update is already known. Quiz and Launcher versions remain independent.",
+      "assets": {
+        "win32-x86_64": {
+          "name": "LockInQuiz-Setup-1.0.2.exe",
+          "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInQuiz-Setup-1.0.2.exe",
+          "size": 351999871,
+          "sha256": "d3db2d571bd273094a668d640dbddc5c5585b8a51b2370001e638c6c9aa48d9c"
+        },
+        "darwin-arm64": {
+          "name": "LockInQuiz-1.0.2-macos-arm64.dmg",
+          "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInQuiz-1.0.2-macos-arm64.dmg",
+          "size": 331469415,
+          "sha256": "384eb29f044d63f802692bd6c4f223746094ae961259c14fa291733afb4bab05"
+        },
+        "darwin-x86_64": {
+          "name": "LockInQuiz-1.0.2-macos-x86_64.dmg",
+          "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.2/LockInQuiz-1.0.2-macos-x86_64.dmg",
+          "size": 349105295,
+          "sha256": "5f7dfc70b4cc18fff8072bed8261670d0e2693fe386fd9055a168395e8a554b8"
+        }
+      }
+    }
+  },
+  "launcher": {
+    "version": "1.0.6",
+    "notes": "Windows custom-drive Launcher detection fix. Mac downloads unchanged.",
+    "assets": {
+      "win32-x86_64": {
+        "name": "LockInLauncher-Setup-1.0.6.exe",
+        "url": "https://github.com/hotpirateslocal/Lock-In-Quiz-Releases/releases/download/v1.0.6/LockInLauncher-Setup-1.0.6.exe",
+        "size": 53093997,
+        "sha256": "ecbba3ec4292690a44a78ed30b907ee944dfe591943597b577e2873e1ef39beb"
+      }
+    }
+  }
+}
